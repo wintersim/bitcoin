@@ -102,6 +102,7 @@ public:
         CBlockHeader::SetNull();
         vtx.clear();
         fChecked = false;
+        std::cout << "nein" << std::endl;
     }
 
     CBlockHeader GetBlockHeader() const
